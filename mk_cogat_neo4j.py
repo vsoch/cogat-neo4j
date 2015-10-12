@@ -1,5 +1,5 @@
 from cognitiveatlas.api import get_concept, get_task
-from py2neo import Graph, Path, Node, Rel, authenticate
+from py2neo import Graph, Path, Node, Rel, authenticate, cypher
 import os
 
 # Get concepts, tasks
